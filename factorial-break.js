@@ -1,9 +1,8 @@
-let i = 0;
-let max = 15;
-while (i < max) {
-    i++;
-    if (i === 11) {
-        break
-    }
-    console.log(i);
+let factorial = 1
+let num = 10
+while (true) {
+    factorial *= num
+    num--
+    if (num === 1) break
 }
+console.log(factorial) 
